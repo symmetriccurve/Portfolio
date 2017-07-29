@@ -18,4 +18,8 @@ export default defineMessages({
     id: 'boilerplate.components.Header.vikram',
     defaultMessage: 'Vikram',
   },
+  connect: {
+    id: 'boilerplate.components.Header.connect',
+    defaultMessage: 'Connect',
+  },
 });

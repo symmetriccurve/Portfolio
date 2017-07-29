@@ -25,6 +25,9 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
            <HeaderLink to="/vikram">
             <FormattedMessage {...messages.vikram} />
           </HeaderLink>
+           <HeaderLink to="/connect">
+            <FormattedMessage {...messages.connect} />
+          </HeaderLink>
         </NavBar>
       </div>
     );

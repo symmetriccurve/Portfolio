@@ -56,6 +56,16 @@ export default function createRoutes(store) {
           .catch(errorLoading);
       },
     },
+
+    {
+      path: '/connect',
+      name: 'connect',
+      getComponent(nextState, cb) {
+        import('containers/Connect/ConnectHome')
+          .then(loadModule(cb))
+          .catch(errorLoading);
+      },
+    },
     
     {
       path: '*',
